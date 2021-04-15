@@ -311,7 +311,7 @@ def main(cfg, device):
                 y_t2.data.sub_(cfg.lmd * y_t2.grad.data)
                 labels2learn1[indices, :] = y_t1.detach().clone().cpu().data
                 labels2learn2[indices, :] = y_t2.detach().clone().cpu().data
-                del y_t1, y_t2, target1, target2
+                del y_t1, y_t2
 
             iter_time.update(time.time() - s, 1)
             if (cfg.log_freq is not None and (it + 1) % cfg.log_freq == 0) or (it + 1 == len(train_loader)):
