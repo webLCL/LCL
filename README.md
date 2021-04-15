@@ -1,9 +1,9 @@
-# LCL: A Robust Learning Method for Exploiting Noisy Labels
+# LCL: Coping with Noisy Labels via Label Cross-Learning
 
 
 Introduction
 ---
-This is the source code for our paper **LCL: A Robust Learning Method for Exploiting Noisy Labels**
+This is the source code for our paper **LCL: Coping with Noisy Labels via Label Cross-Learning**
 
 
 Framework
